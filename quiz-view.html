@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="quiz-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://img.freepik.com/free-vector/thoughtful-woman-with-laptop-looking-big-question-mark_1150-39362.jpg?size=626&ext=jpg&ga=GA1.2.1139502872.1691576961&semt=ais"
+                alt="Image" width="450px" height="450px">
+        </div>
+        <div>
+            <h1>Quiz App</h1>
+            <form id="registration-form">
+                <div class="label" id="categorys">Username</div>
+                <input type="text" id="user-name" placeholder="example123" required>
+                <div class="label" id="categorys">Enter Your Email </div>
+                <input type="email" id="email" placeholder="example@gmail.com" required>
+
+                <div class="label" id="categorys">Select Category</div>
+                <select id="cat-select">
+                    <option value="11">Entertainment: Film</option>
+                    <option value="10">Entertainment: Books</option>
+                    <option value="25">Art</option>
+                    <option value="22">Geography</option>
+                </select>
+                <div class="label" id="difficulty">Select Difficulty</div>
+                <select id="diff-select">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <div class="label" id="categorys">Enter Number of Questions</div>
+                <input type="number" id="number-question" placeholder="Select number of questions" required min="5"
+                    max="50">
+
+                <button type="submit">Register</button>
+                <div id="error-block" style="color:red"></div>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="register.js"></script>
+
+</html>
+  

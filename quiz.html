@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Questions</title>
+    <link rel="stylesheet" type="text/css" href="quiz-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <div class="image-container">
+            <img id="image"
+                src="https://img.freepik.com/free-vector/hand-drawn-flat-design-scavenger-hunt_23-2149318706.jpg?w=1480&t=st=1693425537~exp=1693426137~hmac=6c138004e5e83257abf2af14057f7fa3ccfe3f2d26dfc757287620296677ab97"
+                alt="Image" width="450px" height="500px">
+        </div>
+        <div>
+            <h1 class="heading">Quiz Questions</h1>
+            <div id="quiz-form">
+                <div class="stats">
+                    <div id="timer">Time Left &nbsp;:&nbsp;&nbsp; <div id="time-remaining"> &#9200 20 s</div>
+                    </div>
+                    <div id="score">Score: 0</div>
+                </div>
+                <div id="quiz-questions">
+                    <div id="question"></div>
+                    <div id="options"></div>
+
+                </div>
+                <div class="successful-quiz"> <b>Congratulations !! </b>You have completed the quiz!!!!
+                    To start a new Quiz Please click <a href="quiz-view.html">here</a>
+                </div>
+                <div style="display: flex;" class="btn-group">
+                    <button id="submit-button">Submit</button>
+                    <button id="next-button">Next</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="quiz.js">
+
+</script>
+
+</html>
